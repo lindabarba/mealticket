@@ -5,7 +5,6 @@ const request = require('request');
 const rootURL = 'https://developers.zomato.com/api/v2.1/search?entity_id=281&entity_type=city&count=10&lat=';
 const key = process.env.XZomatoAPIKey;
 
-
 function index(req, res, next) {
   Venue.findById(req.params.venue, function(err, venue) {
     if (err) return res.redirect('/');
@@ -37,10 +36,6 @@ function index(req, res, next) {
     });
   });
 }
-
-
-
-
 
 function show(req, res, next){
   Venue.findById(req.params.venue, function(err, venue){
