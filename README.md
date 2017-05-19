@@ -62,4 +62,10 @@ If you are granted Admin privileges, you gain additional access to Edit and Dele
 #### /api/places JSON Response Body
 ![GET /api/venues](https://i.imgur.com/7WArykp.png)
 
+### Planned Features, Hurdles Encountered  
+- Multiple ratings on same restaurant are allowed by same user
+- Search capability for venues
+- Venue creation form for easy in-app use
+- Handling asynchronous function calls
+
 ### Special Thanks to Zomato for all of the Great Data. Namaste.
